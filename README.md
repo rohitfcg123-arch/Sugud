@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -5,8 +6,113 @@
   <title>Sugud — Pure Jaggery Powder</title>
   <meta name="description" content="Sugud — pure, chemical-free jaggery powder. A natural alternative to refined sugar." />
 
-  <!-- Link external CSS -->
-  <link rel="stylesheet" href="style.css">
+  <style>
+    /* General */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #fffaf3;
+      color: #3e2c00;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    h1, h2, h3 {
+      color: #a66a2a;
+    }
+
+    /* Header */
+    .site-header {
+      background: #f4d35e;
+      padding: 10px 0;
+    }
+    .site-header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #3e2c00;
+    }
+    .site-header nav {
+      margin-top: 10px;
+    }
+    .site-header nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #3e2c00;
+      font-weight: bold;
+    }
+    .site-header nav a:hover {
+      color: #a66a2a;
+    }
+
+    /* Hero */
+    .hero {
+      background: #a66a2a;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 36px;
+    }
+    .hero p {
+      margin: 20px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #f4d35e;
+      color: #3e2c00;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #ffd84c;
+    }
+
+    /* Sections */
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* Product Cards */
+    .products {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #fff;
+      border: 2px solid #f4d35e;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #a66a2a;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #f4d35e;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -68,10 +174,10 @@
     <section id="benefits" class="section">
       <div class="container">
         <h2>Why Choose Sugud?</h2>
-        <ul>
-          <li>100% natural & chemical-free</li>
-          <li>Rich in minerals & antioxidants</li>
-          <li>Better alternative to refined sugar</li>
+        <ul style="list-style: none; padding: 0;">
+          <li>✅ 100% natural & chemical-free</li>
+          <li>✅ Rich in minerals & antioxidants</li>
+          <li>✅ Better alternative to refined sugar</li>
         </ul>
       </div>
     </section>
@@ -100,5 +206,3 @@
   </footer>
 </body>
 </html>
-
-
