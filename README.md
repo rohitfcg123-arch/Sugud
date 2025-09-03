@@ -6,7 +6,7 @@
   <meta name="description" content="Sugud — pure, chemical-free jaggery powder. A natural alternative to refined sugar." />
 
   <!-- Link external CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
