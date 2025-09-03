@@ -139,6 +139,8 @@
 
     <!-- About -->
     <section id="about" class="section">
+    <img src="organic-gur-jaggery-powder-is-unrefined-sugar-obtained-from-concentrated-sugarcane-juice-served-bowl-selective-focus_466689-37035.jpg">
+
       <div class="container">
         <h2>About Sugud</h2>
         <p>Sugud brings you the natural sweetness of jaggery in an easy-to-use powdered form. Perfect for tea, coffee, desserts, and everyday cooking.</p>
