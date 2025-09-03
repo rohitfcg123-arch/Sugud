@@ -4,7 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sugud — Pure Jaggery Powder</title>
   <meta name="description" content="Sugud — pure, chemical-free jaggery powder. A natural alternative to refined sugar." />
-
   <style>
     /* General */
     body {
