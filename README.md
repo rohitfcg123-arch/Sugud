@@ -118,7 +118,7 @@
       <h1 class="logo">Sugud</h1>
       <nav>
         <a href="about.html">About</a>
-        <a href="#products">Products</a>
+        <a href="product.html">Products</a>
         <a href="#benefits">Benefits</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
