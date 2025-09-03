@@ -186,7 +186,7 @@
     <section id="faq" class="section">
       <div class="container">
         <h2>FAQ</h2>
-        <p><strong>Q: How do I use Sugud?</strong><br>Use it as a 1:1 replacement for sugar in drinks and recipes.</p>
+        <p><strong>Q: How to use Sugud?</strong><br>Use it as a 1:1 replacement for sugar in drinks and recipes.</p>
         <p><strong>Q: Does it dissolve easily?</strong><br>Yes, the fine powder form dissolves quickly.</p>
       </div>
     </section>
