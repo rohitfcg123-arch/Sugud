@@ -196,7 +196,7 @@
       <div class="container">
         <h2>Contact Us</h2>
         <p>Email: support@sugud.com</p>
-        <p>Phone: +91 90000 00000</p>
+        <p>Phone: +91 8945889571</p>
       </div>
     </section>
   </main>
