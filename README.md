@@ -117,7 +117,7 @@
     <div class="container header-inner">
       <h1 class="logo">Sugud</h1>
       <nav>
-        <a href="#about">About</a>
+        <a href="about.html">About</a>
         <a href="#products">Products</a>
         <a href="#benefits">Benefits</a>
         <a href="#faq">FAQ</a>
