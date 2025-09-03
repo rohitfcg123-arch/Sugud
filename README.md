@@ -139,7 +139,7 @@
 
     <!-- About -->
     <section id="about" class="section">
-    <img src="organic-gur-jaggery-powder-is-unrefined-sugar-obtained-from-concentrated-sugarcane-juice-served-bowl-selective-focus_466689-37035.jpg">
+    <img src="organic-gur-jaggery-powder-is-unrefined-sugar-obtained-from-concentrated-sugarcane-juice-served-bowl-selective-focus_466689-37035.jpg" alt="best view" width="100%" height="400">
 
       <div class="container">
         <h2>About Sugud</h2>
