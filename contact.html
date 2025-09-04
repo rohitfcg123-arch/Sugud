@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact — SUGED</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="index.html"><div class="logo">SUGED</div></a>
+  </header>
+
+  <main class="container">
+    <h2>Contact</h2>
+    <div class="grid">
+      <div class="form">
+        <label>Your name</label>
+        <input placeholder="Full name">
+        <label>Email</label>
+        <input placeholder="you@example.com">
+        <label>Message</label>
+        <textarea rows="5" placeholder="Write your message"></textarea>
+        <div style="display:flex;gap:8px">
+          <button class="btn btn-primary" onclick="alert('This is a static demo. Integrate a backend to accept messages.')">Send</button>
+        </div>
+      </div>
+
+      <div class="form">
+        <h3>Our details</h3>
+        <p class="small"><strong>SUGED</strong><br>Address: Your shop / warehouse address here<br>Email: info@suged.example<br>Phone: +91 90000 00000</p>
+        <p class="small">For bulk orders, please email or call us.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container footer">© <span id="year"></span> SUGED.</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
