@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sign up — SUGUD</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="index.html"><div class="logo">SUGED</div></a>
+  </header>
+
+  <main class="container">
+    <h2>Create an account</h2>
+    <div class="form">
+      <label for="su-name">Full name</label>
+      <input id="su-name" placeholder="e.g. Rohit Kumar">
+      <label for="su-email">Email</label>
+      <input id="su-email" type="email" placeholder="you@example.com">
+      <label for="su-pass">Password</label>
+      <input id="su-pass" type="password" placeholder="Choose a password">
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-primary" onclick="signupUser()">Sign up</button>
+        <a class="btn btn-outline" href="login.html">Already have account?</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container footer">© <span id="year"></span> SUGED.</footer>
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
