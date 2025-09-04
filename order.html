@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Order — SUGUD</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="index.html"><div class="logo">SUGED</div></a>
+  </header>
+
+  <main class="container">
+    <h2>Order details</h2>
+    <div id="order-detail"></div>
+  </main>
+
+  <footer class="container footer">© <span id="year"></span> SUGED.</footer>
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
