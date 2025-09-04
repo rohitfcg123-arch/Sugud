@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Login — SUGUD</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="index.html"><div class="logo">SUGED</div></a>
+  </header>
+
+  <main class="container">
+    <h2>Login</h2>
+    <div class="form">
+      <label for="li-email">Email</label>
+      <input id="li-email" type="email">
+      <label for="li-pass">Password</label>
+      <input id="li-pass" type="password">
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-primary" onclick="loginUser()">Login</button>
+        <a class="btn btn-outline" href="signup.html">Sign up</a>
+      </div>
+      <p class="small" style="margin-top:12px">This is a static demo: credentials are stored locally in your browser only.</p>
+    </div>
+  </main>
+
+  <footer class="container footer">© <span id="year"></span> SUGED.</footer>
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
