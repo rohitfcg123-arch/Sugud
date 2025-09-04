@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SUGED — Natural Jaggery Powder</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="index.html">
+      <div class="logo">SUGED</div>
+      <div>
+        <div style="font-weight:700">SUGED</div>
+        <div class="small">Natural jaggery powder</div>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="cta">Cart <span id="cart-count" style="margin-left:8px;background:#fff;padding:4px 8px;border-radius:8px;color:#333">0</span></a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="jaggery">
+      <div class="lead">
+        <h1>Pure & Traditional Jaggery — SUGED</h1>
+        <p class="small">Replace white sugar with natural jaggery made using traditional methods. Suitable for tea, sweets, and daily cooking.</p>
+        <div style="margin-top:12px">
+          <a class="btn btn-primary" href="#products">Shop now</a>
+          <a class="btn btn-outline" href="about.html" style="margin-left:8px">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="products">Products</h2>
+      <div id="products-list" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    © <span id="year"></span> SUGED — Natural Jaggery Powder. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
