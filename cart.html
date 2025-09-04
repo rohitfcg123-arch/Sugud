@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cart — SUGED</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="index.html"><div class="logo">SUGED</div></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="signup.html">Sign up</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Your Cart</h2>
+    <div id="cart-area"></div>
+  </main>
+
+  <footer class="container footer">
+    © <span id="year"></span> SUGED.
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
